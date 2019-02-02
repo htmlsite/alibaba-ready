@@ -1,8 +1,6 @@
 #!/bin/bash
+
 set -ue
-
-./directory.sh
-
 
 NUM=`expr $RANDOM % 33 + 1`
 
@@ -44,9 +42,3 @@ ICONS=(
 )
 echo ${#ICONS[*]}
 echo ${ICONS[$NUM]}
-
-MM="${ICONS[$NUM]} Commit file"
-`git add .`
-git commit -m "$MM"
-echo $MM
-#`git push origin master:dev`
