@@ -3,7 +3,7 @@ set -ue
 
 ./directory.sh
 
-
+info=$1
 NUM=`expr $RANDOM % 33 + 1`
 
 ICONS=(
@@ -45,7 +45,7 @@ ICONS=(
 #echo ${#ICONS[*]}
 #echo ${ICONS[$NUM]}
 date=`date +%Y-%m-%d' '%H:%M:%S`
-MM="${ICONS[$NUM]} date:$date Commit file"
+MM="${ICONS[$NUM]} date:$date Commit file $info"
 #echo $MM
 git add .
 git commit -m "$MM"
