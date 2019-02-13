@@ -23,8 +23,11 @@
 ├── LICENSE
 ├── push_dev.sh
 ├── README.md
+├── share
+│   └── README.md
 ├── SUMMARY.md
 └── tests
-    └── get_icon.sh
+    ├── get_icon.sh
+    └── README.md
 
-8 directories, 19 files
+9 directories, 21 files
