@@ -42,10 +42,11 @@ ICONS=(
 :v:
 :heart:
 )
-echo ${#ICONS[*]}
-echo ${ICONS[$NUM]}
-
-MM="${ICONS[$NUM]} Commit file"
+#echo ${#ICONS[*]}
+#echo ${ICONS[$NUM]}
+date=`date +%Y-%m-%d' '%H:%M:%S`
+MM="${ICONS[$NUM]} @date:$date Commit file"
+#echo $MM
 git add .
 git commit -m "$MM"
 git push origin master:dev
