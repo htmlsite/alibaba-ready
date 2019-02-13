@@ -45,7 +45,7 @@ ICONS=(
 #echo ${#ICONS[*]}
 #echo ${ICONS[$NUM]}
 date=`date +%Y-%m-%d' '%H:%M:%S`
-MM="${ICONS[$NUM]} @date:$date Commit file"
+MM="${ICONS[$NUM]} date:$date Commit file"
 #echo $MM
 git add .
 git commit -m "$MM"
