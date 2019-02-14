@@ -27,7 +27,8 @@
 │   └── README.md
 ├── SUMMARY.md
 └── tests
+    ├── args_test.sh
     ├── get_icon.sh
     └── README.md
 
-9 directories, 21 files
+9 directories, 22 files

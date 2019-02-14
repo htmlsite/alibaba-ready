@@ -2,8 +2,10 @@
 
 set -ue
 
+# 随机数获取
 NUM=`expr $RANDOM % 33 + 1`
 
+# github提交的emji图标
 ICONS=(
 :ok:
 :up:
@@ -40,5 +42,8 @@ ICONS=(
 :v:
 :heart:
 )
+
+# 输出emji图标总数
 echo ${#ICONS[*]}
+# 获取随机的图标标识
 echo ${ICONS[$NUM]}
