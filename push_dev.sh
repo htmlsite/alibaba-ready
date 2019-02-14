@@ -57,7 +57,7 @@ if [ $number -eq 0 ];then
  MM="${ICONS[$NUM]} date:$date Commit file "
 fi
 if [ $number -eq 1 ];then
- MM="${ICONS[$NUM]} date:$date Commit file $1"
+ MM="${ICONS[$NUM]} date:$date $1"
 fi
 
 #echo $MM
