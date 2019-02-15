@@ -1,4 +1,6 @@
 锁机制
+@author:xuegangliu
+@date:2019-02-14
 ---
 
 排他性
@@ -34,3 +36,29 @@ Session.lock
 
 ## 乐观锁
 大多是基于数据版本（ Version ）记录机制实现
+
+### Hibernate 的加锁方式
+进行数据事物的时候,判断数据版本是否一致,一致进行事物获取,不一致,重新获取数据再进行事物处理
+对象映射object.xml中配置
+
+`optimistic-lock="xx"`
+
+optimistic-lock 属性有如下可选取值：
+
+- none：无乐观锁
+- version：通过版本机制实现乐观锁
+- dirty：通过检查发生变动过的属性实现乐观锁
+- all：通过检查所有属性实现乐观锁
+
+### 实现方法
+```sql
+<hibernate-mapping>
+<class name="org.hibernate.sample.XX" table="xxtable" dynamic-update="true"
+dynamic-insert="true" optimistic-lock="version">
+ ...
+
+<version column="version" name="version" type="java.lang.Integer"/> // 操作事物时,对字段值进行累加   版本字段必须放在主键映射之后
+</class>
+</hibernate-mapping>
+
+```
