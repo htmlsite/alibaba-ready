@@ -2,7 +2,14 @@
 set -ue
 
 # 目录结构脚本获取
-./directory.sh
+#./directory.sh
+a='```'
+echo "" > SUMMARY.md
+echo "文档结构" >> SUMMARY.md
+echo "---" >> SUMMARY.md
+echo $a >> SUMMARY.md
+tree|grep ── >> SUMMARY.md
+echo $a >> SUMMARY.md
 
 number=$#
 
