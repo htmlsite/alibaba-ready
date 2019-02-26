@@ -7,9 +7,9 @@ a='```'
 echo "" > SUMMARY.md
 echo "文档结构" >> SUMMARY.md
 echo "---" >> SUMMARY.md
-echo $a >> SUMMARY.md
-tree|grep ── >> SUMMARY.md
-echo $a >> SUMMARY.md
+#echo $a >> SUMMARY.md
+#tree|grep ── >> SUMMARY.md
+#echo $a >> SUMMARY.md
 
 number=$#
 
