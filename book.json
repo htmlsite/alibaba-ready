@@ -1,9 +1,9 @@
 {
     "author": "xuegangliu",
-    "description": "技术路",
+    "description": "学习成长路",
     "extension": null,
     "generator": "site",
-    "title": "Study book",
+    "title": "进军阿里巴巴",
     "variables": {},
     "links": {
         "sharing": {
@@ -11,10 +11,11 @@
             "facebook": null,
             "google": null,
             "twitter": null,
-            "weibo": null
+            "weibo": http://weibo.com/51995812?is_hot=1
         },
         "sidebar": {
-          "Go to CSM": "https:baidu.com/"
+          "百度": "https:baidu.com/",
+	  "个人": "https://xuegangliu.github.io"
         }
     },
     "output": null,
@@ -74,15 +75,15 @@
             "edit": true
         },
         "tbfed-pagefooter": {
-            "copyright": "Copyright © 项目组 2018",
+            "copyright": "Copyright © xuegangliu 2019",
             "modify_label": "该文件修订时间：",
             "modify_format": "YYYY-MM-DD HH:mm:ss"
         },
         "donate": {
-            "wechat": "./pics/pay.jpg",
+            "wechat": "./images/wechat.jpg",
             "title": "",
-            "button": "赏",
-            "wechatText": "微信打赏"
+            "button": "微信",
+            "wechatText": "微信添加"
         },
         "simple-page-toc": {
             "maxDepth": 3,
