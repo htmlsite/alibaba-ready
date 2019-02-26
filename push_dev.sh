@@ -4,12 +4,12 @@ set -ue
 # 目录结构脚本获取
 #./directory.sh
 a='```'
-echo "" > SUMMARY.md
-echo "文档结构" >> SUMMARY.md
-echo "---" >> SUMMARY.md
-echo $a >> SUMMARY.md
-tree|grep ── >> SUMMARY.md
-echo $a >> SUMMARY.md
+echo "" > info.md
+echo "文档结构" >> info.md
+echo "---" >> info.md
+echo $a >> info.md
+tree|grep ── >> info.md
+echo $a >> info.md
 
 number=$#
 
