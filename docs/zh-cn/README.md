@@ -3,8 +3,6 @@ Are you ready
 
 进军阿里开始
 
-## 1
-xxx
+![img](../_media/dream.jpg)
 
-## 2{docsify-ignore}
-xxx
+There is no end,there is no goodbye!
