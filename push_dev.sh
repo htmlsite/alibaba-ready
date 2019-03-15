@@ -3,13 +3,13 @@ set -ue
 
 # 目录结构脚本获取
 #./directory.sh
-a='```'
-echo "" > info.md
-echo "文档结构" >> info.md
-echo "---" >> info.md
-echo $a >> info.md
-tree|grep ── >> info.md
-echo $a >> info.md
+#a='```'
+#echo "" > info.md
+#echo "文档结构" >> info.md
+#echo "---" >> info.md
+#echo $a >> info.md
+#tree|grep ── >> info.md
+#echo $a >> info.md
 
 number=$#
 
