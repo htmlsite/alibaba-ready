@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Document</title>
+  <title>技术成长之路</title>
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
   <meta name="description" content="Description">
   <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
@@ -17,7 +17,7 @@
 
   <div id="app"></div>
   <!-- 与el: '#main' 一起使用-->
-  <div data-app id="main">加载中</div>
+  <!--<div data-app id="main">加载中</div>-->
   <script>
     window.$docsify = {
       name: 'alibaba-ready',
@@ -44,7 +44,7 @@
 
       formatUpdated: '{YYYY}-{MM}/{DD} {HH}:{mm}',
 
-      externalLinkTarget: '_self',// default: '_blank'
+      externalLinkTarget: '_blank',// default: '_blank' _self
 
       // 切换页面跳到页面头
       auto2top: true,
@@ -99,12 +99,12 @@
           function(hook, vm) {
               hook.beforeEach(function (html) {
                   var url = 'https://github.com/xuegangliu/alibaba-ready/master/docs' + vm.route.file
-                  var editHtml = '[📝 EDIT DOCUMENT](' + url + ')\n'
+                  var editHtml = '[📝编辑文档](' + url + ')\n'
 
                   return editHtml
                       + html
                       + '\n----\n'
-                      + 'Last modified {docsify-updated} '
+                      + '最后修改时间:{docsify-updated} '
                       + editHtml
               })
           }

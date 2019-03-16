@@ -4,7 +4,7 @@
 
 > Are you ready.
 
-* Document
+* 技术成长之路
 
 [GitHub](https://github.com/xuegangliu/alibaba-ready/)
 [Get Started](https://github.com/xuegangliu/alibaba-ready)
