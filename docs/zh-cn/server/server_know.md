@@ -1,5 +1,4 @@
-应用服务器
----
+# 应用服务器了解
 
 ## 组件、容器服务器(jsp/servlet容器)
 
@@ -16,8 +15,7 @@
 1. Google Web Server
 1. lighttpd
 
-websphere基本概念
----
+## websphere
 
 ### 什么是单元（Cell）？什么是节点（Node）？Node、Profile 与 Server 之间的关系是什么？
 

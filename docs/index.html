@@ -28,7 +28,7 @@
       //themeColor: '#3F51B5',
 
       // 封面
-      coverpage: true,
+      // coverpage: true,
 
       // 入口文件改为 /home.md
       //homepage: 'home.md',
@@ -39,7 +39,7 @@
       // 侧边导航
       loadSidebar: true,
       subMaxLevel: 2,
-      autoHeader: true,
+      // autoHeader: true,
       mergeNavbar: true,
 
       formatUpdated: '{YYYY}-{MM}/{DD} {HH}:{mm}',
@@ -64,22 +64,22 @@
       ext: '.md',
 
       // 完整配置参数
-      search: {
-          maxAge: 86400000, // 过期时间，单位毫秒，默认一天
-          paths: [], // or 'auto'
-          // 支持本地化
-          placeholder: {
-              '/zh-cn/': '搜索',
-              '/': 'Type to search'
-          },
-          // 支持本地化
-          noData: {
-              '/zh-cn/': '找不到结果',
-              '/': 'No Results'
-          },
-          // 搜索标题的最大程级, 1 - 6
-          depth: 2
-      },
+      // search: {
+      //     maxAge: 86400000, // 过期时间，单位毫秒，默认一天
+      //     paths: [], // or 'auto'
+      //     // 支持本地化
+      //     placeholder: {
+      //         '/zh-cn/': '搜索',
+      //         '/': 'Type to search'
+      //     },
+      //     // 支持本地化
+      //     noData: {
+      //         '/zh-cn/': '找不到结果',
+      //         '/': 'No Results'
+      //     },
+      //     // 搜索标题的最大程级, 1 - 6
+      //     depth: 2
+      // },
       // ga: 'UA-XXXXX-Y',//谷歌统计
       disqus: 'shortname',
       plugins: [
@@ -96,18 +96,18 @@
                   return html + footer
               })
           },
-          function(hook, vm) {
-              hook.beforeEach(function (html) {
-                  var url = 'https://github.com/xuegangliu/alibaba-ready/master/docs' + vm.route.file
-                  var editHtml = '[📝编辑文档](' + url + ')\n'
-
-                  return editHtml
-                      + html
-                      + '\n----\n'
-                      + '最后修改时间:{docsify-updated} '
-                      + editHtml
-              })
-          }
+          // function(hook, vm) {
+          //     hook.beforeEach(function (html) {
+          //         var url = 'https://github.com/xuegangliu/alibaba-ready/master/docs' + vm.route.file
+          //         var editHtml = '[📝编辑文档](' + url + ')\n'
+          //
+          //         return editHtml
+          //             + html
+          //             + '\n----\n'
+          //             + '最后修改时间:{docsify-updated} '
+          //             + editHtml
+          //     })
+          // }
       ]
     }
   </script>
