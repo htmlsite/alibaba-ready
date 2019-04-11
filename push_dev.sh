@@ -72,4 +72,4 @@ fi
 # git本地分支master提交到dev分支
 git add .
 git commit -m "$MM"
-git push origin master:dev
+#git push origin master:dev

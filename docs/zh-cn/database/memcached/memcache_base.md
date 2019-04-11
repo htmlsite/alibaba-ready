@@ -1,7 +1,8 @@
-Memcached
----
-# Memcached基础 
-## 1.存储命令
+# Memcached
+
+## 基础 
+
+### 存储命令
 参数说明如下：
 	- key：键值 key-value 结构中的 key，用于查找缓存值。
 	- flags：可以包括键值对的整型参数，客户机使用它存储关于键值对的额外信息 。
@@ -26,7 +27,7 @@ value
 - cas 命令 检查并设置，其它客户端没有操作时，修改 key(键) 的 value(数据值)
 	cas key flags exptime bytes unique_cas_token [noreply] value
 
-## 2.查找命令
+### 查找命令
 - get  获取存储在 key(键) 中的 value(数据值) ，如果 key 不存在，则返回空
 - get key            #单个key查找
 - get key1 key2 key3          #多个key查找
@@ -39,7 +40,7 @@ value
 - incr key increment_value
 - decr key decrement_value
  
-## 3.统计命令
+### 统计命令
 stats  用于返回统计信息
 
 - stats

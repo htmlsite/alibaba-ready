@@ -3,6 +3,7 @@ Are you ready
 
 Start
 
-![img](../_media/dream.jpg)
+<center>
+<img src='../_media/dream.jpg'/>
+</center>
 
-There is no end,there is no goodbye!

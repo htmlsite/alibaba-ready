@@ -1,0 +1,39 @@
+# Eclipse
+
+- Ctrl + 2,L  补全  自己改为Alt + q
+- 选中按F4 或 Ctrl + t   进入层次视图-----体系结构
+- Alt+/	内容补全
+- Ctrl + 1  帮助
+- Ctrl + d  删除当前行
+- Ctrl + M  最大化当前的Edit或View (再按则反之)
+- Ctrl + f  查找/替换
+- Ctrl + 点击   进入源码
+- Alt + Shift + r   改名
+- Ctrl + Shift + o   快速导包
+- Ctrl + Shift + r   打开源
+- Ctr + Shift + f   格式化代码
+- Ctrl + Shift + x   变大写
+- Ctrl + Shift + x   变小写
+- Ctrl + Shift + t   类查询
+- syso + Alt + /   输出
+- Alt + ←   前一个编辑的页面
+- Alt + →   下一个编辑的页面
+- Alt + 上箭头	上移
+- Alt + 下箭头	下移
+- Ctrl + /	单行注释
+- Ctrl + Shift + /   多行注释
+- Ctrl + Shift + \   取消注释
+- Ctrl + Shift + c   适用于各种文档的注释
+- Ctrl + Alt + 上箭头/下箭头   上复制/下复制
+- Alt + Shift + s   源操作
+- Alt + Shift + t   方法操作
+- Alt + Shift + z   语句操作
+- Alt + Shift + m   提取方法
+- Alt + Shift + L	  提取本地变量
+- Alt + 1   packageExporer显示
+- Alt + 2   console显示
+- Alt + 3   Outline显示
+- 小绿圆圈------>方法
+- 小绿三角------>属性
+- 带土红色 s ----->静态
+- Alt + 4   navigator导航显示
