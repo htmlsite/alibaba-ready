@@ -30,6 +30,7 @@ when not macthed then insert into a(字段1,字段2……)values(值1,值2……
 - nvl(字段,0),判断字段为空时赋值
 - instr(string1,string2) string1是否在string中出现,出现>0
 - wm_concat(filed) 将多条数据的同一字段值拼接到一个值里,按value1,value2格式,oracle10g返回varchar格式,oracle11g返回clob格式
+- coalesce(null,1,2,3) 返回第一个非null的值
 
 ### 数字函数
 - mod(number1,number2) 取余
