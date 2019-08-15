@@ -13,6 +13,8 @@
     * [Maven构建](zh-cn/tools/maven.md)
     * [idea快捷键](zh-cn/tools/idea.md)
     * [Eclipse快捷键](zh-cn/tools/eclipse.md)
+* 编程思想
+    * [设计思想](zh-cn/object/thought.md)
 * 个人链接
     * [网站](https://xuegangliu.github.io/ ':target=_blank')
     * [阅读](https://htmlsite.github.io/reading-notes/#/ ':target=_blank')
