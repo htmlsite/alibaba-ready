@@ -1,0 +1,23 @@
+name: alibaba-ready
+on:
+  push:
+    branches:
+      - master
+jobs:
+  job1:
+    name: Print a greeting
+    runs-on: ubuntu-18.04
+    steps:
+      - name: introduce
+        env:
+          THANKS: Thanks everyone!!!
+          FIRST_NAME: Liu
+          MIDDLE_NAME: Xue
+          LAST_NAME: Gang
+        run: |
+          echo Name:$FIRST_NAME $MIDDLE_NAME $LAST_NAME. $THANKS
+#  job2:
+#    name: job2
+#  job3:
+#    name: job3
+#    needs: [job1, job2]
